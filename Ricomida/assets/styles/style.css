@@ -1,0 +1,77 @@
+* {
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@media (max-width: 767.98px) {
+  #carouselId {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col-md-4 {
+    width: 100%;
+  }
+}
+
+#logo {
+  font-family: "Lobster";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+}
+
+#heroe-photo {
+  height: 10%;
+  width: 10%;
+}
+
+footer {
+  background-color: #dc3545;
+  color: white;
+}
+
+#bfooter {
+  background-color: black;
+}
+
+.btn-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-outline-secondary {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Guía de Estilos
+Tipografías:
+● Cabin
+● Lobster
+Google Fonts
+Weight:
+● Cabin Regular (400)
+● Cabin Bold (700)
+● Lobster Regular (400)
+Colores
+● #373a3c
+● #dddddd
+● #000 o var(--black)
+● #fff o var(--white)
+● #dc3545 o var(--danger) */
